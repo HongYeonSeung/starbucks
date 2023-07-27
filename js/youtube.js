@@ -9,15 +9,15 @@
      //    after the API code downloads.
      function onYouTubeIframeAPIReady() {
       new YT.Player('player', {
-         videoId: 'jJJwg1Rm6eA', // 최초 재생할 유튜브 영상ID
+         videoId: 'An6LvWQuj_8', // 최초 재생할 유튜브 영상ID
          playerVars:{
           autoplay:true,
           loop:true,
-          playlist : 'jJJwg1Rm6eA'
+          playlist : 'An6LvWQuj_8'
          },
          events:{
           onReady:function(event){
-            // event.target.mute()
+             event.target.mute()
           }
          }
        });
