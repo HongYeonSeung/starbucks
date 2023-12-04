@@ -1,6 +1,6 @@
 # Starbucks
 
-link
+Link
 -------
 >https://shiny-bunny-eccbea.netlify.app/
 
